@@ -6,3 +6,7 @@ books = [
     "Hello Web App: Learn How to Build a Web App - Tracy Osborn",
 ]
 print("Suggested gift: {}".format(books[0]))
+
+print("Books:")
+for book in books:
+    print("*" + book)
